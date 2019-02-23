@@ -6,9 +6,9 @@ namespace PadawansTask3
     {
         public static int Gcd(int a, int b)
         {
-            if (a == 0 || b == 0)
+            if (a == 0 && b == 0)
             {
-                throw new NotImplementedException();
+                throw new ArgumentException();
             }
             int gcd = 1;
             int min;
